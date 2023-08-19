@@ -1,0 +1,49 @@
+/* Estilo general del formulario */
+#form {
+    /* Centrar el formulario */
+    margin: 0 auto;
+    /* Definir el ancho máximo del formulario */
+    max-width: 500px;
+    /* Definir el espaciado interno del formulario */
+    padding: 20px;
+    /* Definir el color de fondo del formulario */
+    background-color: #f0f0f0;
+}
+
+/* Estilo del título del formulario */
+#form h1 {
+    /* Centrar el título */
+    text-align: center;
+}
+
+/* Estilo de cada sección del formulario */
+.section {
+    /* Definir el espaciado externo de cada sección */
+    margin: 10px;
+}
+
+/* Estilo de cada etiqueta del formulario */
+.section label {
+    /* Mostrar la etiqueta como un bloque */
+    display: block;
+    /* Definir el tamaño de la fuente de la etiqueta */
+    font-size: 18px;
+}
+
+/* Estilo de cada campo de entrada del formulario */
+.section input {
+    /* Mostrar el campo de entrada como un bloque */
+    display: block;
+    /* Definir el ancho del campo de entrada */
+    width: 100%;
+    /* Definir el espaciado interno del campo de entrada */
+    padding: 10px;
+    /* Definir el borde del campo de entrada */
+    border: 1px solid #ccc;
+}
+
+/* Estilo de cada mensaje de error del formulario */
+.error {
+    /* Definir el color del mensaje de error */
+    color: red;
+}
